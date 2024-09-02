@@ -43,19 +43,19 @@ const FirstStep = () => {
     <div className="w-[476px] h-[430px] mx-auto mt-[64px] relative flex items-center justify-center">
       <TriangleBg />
       <div
-        className="absolute top-0 left-0"
+        className="absolute top-[-30px] left-[-30px] w-[252px] h-[248px] bg-white rounded-full flex items-center justify-center transition-all duration-400 bg-opacity-0 hover:bg-opacity-5"
         onClick={() => handleHandSelection("paper")}
       >
         <Paper width="198px" height="203px" />
       </div>
       <div
-        className="absolute top-0 right-0"
+        className="absolute top-[-30px] right-[-30px] w-[252px] h-[248px] bg-white rounded-full flex items-center justify-center transition-all duration-200 bg-opacity-0 hover:bg-opacity-5"
         onClick={() => handleHandSelection("scissors")}
       >
         <Scissors width="198px" height="203px" />
       </div>
       <div
-        className="absolute bottom-0 left-1/2 -translate-x-2/4"
+        className="absolute bottom-[-30px] left-1/2 -translate-x-2/4 w-[252px] h-[248px] bg-white rounded-full flex items-center justify-center transition-all duration-200 bg-opacity-0 hover:bg-opacity-5"
         onClick={() => handleHandSelection("rock")}
       >
         <Rock width="198px" height="203px" />
